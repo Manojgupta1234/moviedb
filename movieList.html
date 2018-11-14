@@ -1,0 +1,16 @@
+
+	<span>
+		<article class="one_quarter" ng-click=go()>
+		  
+		  	<img src="https://image.tmdb.org/t/p/w185/{{movie.poster_path}}" width="100" height="125">
+		  	<div class="movie-details">
+		  		<p>{{movie.title}}{{movie.id}}</p>
+		  		<p>Rated : {{movie.vote_average}}</p>
+		  		<p>Released On : {{movie.release_date}}
+		  	</div>
+		  
+			<div class="movie-overview">
+				{{movie.overview}}
+			</div>	
+		</article>
+	</span>
